@@ -1,0 +1,98 @@
+#html {
+max-width: 100px ;
+max-height: 100px;
+background-color: bisque;
+}
+
+#js {
+    max-width: 100px;
+    max-height: 100px;
+    display:flex:}
+
+#css {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#git {
+    max-width: 170px;
+    max-height: 170px;
+}
+
+#hiddenmessage{
+    min-width: 400px;
+    max-height: 215px;
+ padding-left: 250px;
+ padding-top:15px;
+}
+
+body {
+    margin: 0;
+    padding:0 ;
+    background-color: black;
+}
+
+.container {
+ width: 100vw;
+ height: 100vh;
+
+ font-family: 'Quicksand' , sans-serif;
+font-weight: bold;
+font-size: 20px;
+
+display: grid;
+
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 75px 1fr 1fr 100px;
+
+gap: 5px;
+padding: 10px;
+box-sizing: border-box;
+}
+
+.container div {
+    padding: 10px;
+    
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    background-color: black;
+    color:bisque;
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-large{
+    grid-row-start:2;
+    grid-row-end:span 2;
+    grid-column-start:1;
+    grid-column-end:3;
+    text-align:center;
+    background-color:rgb(105, 75, 36);
+    color:bisque
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    background-color: black;
+    color:bisque
+}
+.content-small{
+text-align: center;
+background-color: sandybrown;
+color:black
+}
+
+.footer p{
+    padding-bottom:10px;
+}
